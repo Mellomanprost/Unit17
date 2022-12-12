@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF1E50F8-E19D-43C5-BA81-1D16281BB12E}</ProjectGuid>
+    <ProjectGuid>{D40057C3-F1DF-4AF9-8822-CBD086BB9C2F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractFactory</RootNamespace>
-    <AssemblyName>AbstractFactory</AssemblyName>
+    <RootNamespace>AbstractFactoryRealExample</RootNamespace>
+    <AssemblyName>AbstractFactoryRealExample</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,21 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractProductA.cs" />
-    <Compile Include="AbstractProductB.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="ConcreteFactory1.cs" />
-    <Compile Include="ConcreteFactory2.cs" />
-    <Compile Include="IAbstractFactory.cs" />
-    <Compile Include="ProductA1.cs" />
-    <Compile Include="ProductA2.cs" />
-    <Compile Include="ProductB1.cs" />
-    <Compile Include="ProductB2.cs" />
+    <Compile Include="Factories\DragonFactory.cs" />
+    <Compile Include="Factories\IMonsterFactory.cs" />
+    <Compile Include="Factories\OrcFactory.cs" />
+    <Compile Include="Monster.cs" />
+    <Compile Include="Movements\FlyMovement.cs" />
+    <Compile Include="Movements\IMovement.cs" />
+    <Compile Include="Movements\RunMovement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Weapons\Axe.cs" />
+    <Compile Include="Weapons\FireBreath.cs" />
+    <Compile Include="Weapons\IWeapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
