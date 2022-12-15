@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // Создаем аккаунты пользователей
             var account1 = new Account
             {
                 Type = "Обычный",
@@ -22,6 +23,7 @@
                 Balance = 50.3
             };
 
+            // Передаем данные пользователей в калькулятор для дальнейших расчетов
             Calculator.Calculate(account1);
             Calculator.Calculate(account2);
             Calculator.Calculate(account3);
