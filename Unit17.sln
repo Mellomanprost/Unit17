@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrincip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionExample", "DependencyInversionExample\DependencyInversionExample.csproj", "{9A7F7EBC-F033-4910-A1BE-586C535189A1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit17.6.Practice", "Unit17.6.Practice", "{A8845114-3B15-4538-9F86-ADD11968BC08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp", "BankApp\BankApp.csproj", "{8FAEEDFF-F4BA-45DA-A16C-96BC6BACE839}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +143,10 @@ Global
 		{9A7F7EBC-F033-4910-A1BE-586C535189A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A7F7EBC-F033-4910-A1BE-586C535189A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A7F7EBC-F033-4910-A1BE-586C535189A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAEEDFF-F4BA-45DA-A16C-96BC6BACE839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAEEDFF-F4BA-45DA-A16C-96BC6BACE839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAEEDFF-F4BA-45DA-A16C-96BC6BACE839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAEEDFF-F4BA-45DA-A16C-96BC6BACE839}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +172,7 @@ Global
 		{9D1A6208-986B-4718-AAEA-A17FD59F5136} = {A62E2DEE-BC61-41CD-AA82-4DA2B9AADB4A}
 		{29488099-7168-40A6-B1CE-37F299DB4C09} = {A62E2DEE-BC61-41CD-AA82-4DA2B9AADB4A}
 		{9A7F7EBC-F033-4910-A1BE-586C535189A1} = {A62E2DEE-BC61-41CD-AA82-4DA2B9AADB4A}
+		{8FAEEDFF-F4BA-45DA-A16C-96BC6BACE839} = {A8845114-3B15-4538-9F86-ADD11968BC08}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9C057BF-5BD7-4AA3-8C1B-09672E32952A}
